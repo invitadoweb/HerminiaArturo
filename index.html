@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestra Boda Herminia y Arturo </title>
+
+    <!-- Meta tags para redes sociales -->
+    <meta property="og:title" content="Nuestra Boda Jorge & Alejandra">
+    <meta property="og:description" content="¡Te invito a celebrar conmigo este día tan especial!">
+    <meta property="og:image" content="https://invitadoweb.github.io/HerminiaArturo/f.png">
+    <meta property="og:url" content="https://invitadoweb.github.io/HerminiaArturo/">
+    <meta property="og:type" content="website">
+
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon icon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Vendor Styles -->
+    <link rel="stylesheet" media="screen" href="./assets/site/vendor/boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" media="screen" href="./assets/site/vendor/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" media="screen" href="./assets/site/vendor/lightgallery/css/lightgallery-bundle.min.css">
+
+    <!-- Main Theme Styles + Bootstrap -->
+    <link rel="stylesheet" media="screen" href="./assets/site/css/theme.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+TAS:wght@100..400&amp;display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&amp;display=swap" rel="stylesheet">
+
+    <style>
+      .playwrite-au-tas-400,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Playwrite AU TAS", cursive !important;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      body,
+      p,
+      .handlee-regular {
+        font-family: "Handlee", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .text-shadow-black {
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+      }
+
+      .color-main {
+        color: #a8a8a8 !important
+      }
+
+      .color-secondary {
+        color: #000 !important
+      }
+
+      .background-main {
+        background-color: #DFDFDF !important
+      }
+
+      .bg-gradient-primary {
+        background: linear-gradient(45deg, #DFDFDF, #a8a8a8) !important;
+      }
+
+      .nav-locations .nav-link.active {
+        background-color: #a8a8a8 !important;
+        color: #000 !important;
+      }
+
+      .nav-locations .nav-link {
+        background-color: #DFDFDF !important;
+        color: #a8a8a8 !important;
+      }
+
+      .nav-locations .nav-link:hover {
+        background-color: #000 !important;
+        color: #a8a8a8 !important;
+      }
+
+      .bg-light {
+        background-color: #DFDFDF !important;
+      }
+
+      .btn-primary {
+        color: #fff;
+        background-color: #a8a8a8;
+        border-color: #a8a8a8;
+      }
+
+      .btn-primary:hover {
+        color: #fff;
+        background-color: #000;
+        border-color: #000;
+      }
+
+      .btn-outline-primary {
+        color: #a8a8a8;
+        border-color: #a8a8a8;
+      }
+
+      .btn-outline-primary:hover {
+        color: #a8a8a8;
+        border-color: #a8a8a8;
+        background-color: #000;
+      }
+
+      .btn-check:checked+.btn, :not(.btn-check)+.btn:active, .btn:first-child:active, .btn.active, .btn.show 
+      {
+        background-color: #a8a8a8 !important;
+        border-color: #a8a8a8 !important;
+      }
+
+      .parallax-img-section {
+        min-height: 750px !important;
+      }
+
+      .parallax-video-section {
+        min-height: 550px !important;
+      }
+
+      .border-end-md {
+        border-right: 1px solid #000 !important;
+      }
+
+      .swiper-pagination-bullet-active {
+        background-color: #a8a8a8 !important;
+      }
+
+      .btn-prev:not(.bg-transparent):hover, .btn-next:not(.bg-transparent):hover {
+        background-color: #a8a8a8 !important;
+      }
+
+      .fs-super-1 {
+        font-size: 4.5rem !important;
+      }
+
+      .form-check-input:checked {
+        background-color: #a8a8a8 !important;
+        border-color: #a8a8a8 !important;
+      }
+      
+      
+      .form-select:focus,
+      .form-control:focus {
+        border-color: #a8a8a8 !important;
+        box-shadow: 0 0 0 0.25rem rgba(196, 91, 70, 0.25) !important;
+      }
+
+      .line-height-1 {
+        line-height: 1 !important;
+      }
+
+      ::selection,
+      ::-moz-selection {
+        background-color: #000 !important; 
+      }
+
+      :root {
+        --si-user-selection-color: #000;
+        --color-main: #a8a8a8;
+      }
+
+      .custom-audio-player button{
+        background-color: #a8a8a8 !important;
+      }
+
+      .custom-audio-player .custom-audio-player-icon{
+        color: #000 !important;
+      }
+
+      .custom-tooltip {
+        --bs-tooltip-bg: var(--color-main);
+      }
+
+      .btn-video:hover,
+      .btn-video:active {
+        background-color: #a8a8a8 !important;
+        border-color: #a8a8a8 !important;
+        box-shadow: 0 0 10px rgba(196, 91, 70, 0.5) !important;
+      }
+
+      .btn-video {
+        background-color: #000 !important;
+      }
+
+    </style>
+
+    <link rel="stylesheet" media="screen" href="./assets/site/css/invite.css">
+ 
+  </head>
+
+
+  <!-- Body -->
+  <body>
+
+
+    <!-- Page wrapper for sticky footer -->
+    <!-- Wraps everything except footer to push footer to the bottom of the page if there is little content -->
+    <main class="page-wrapper" id="app">
+
+      <reproductor-audio url-file="audio.mp3"></reproductor-audio>
+
+
+
+
+
+
+      <!-- Hero slider + BG parallax -->
+      <section class="jarallax bg-dark  vh-100" data-jarallax data-speed="0.4" data-bs-theme="dark">
+        <span class="position-absolute top-0 start-0 w-100 vh-100 " style="background-color: rgba(0,0,0,0.3);"></span>
+        <div class="jarallax-img" style="background-image: url(./storage/invitation-types/demos/boda/poro.jpg); background-position: center center !important; background-size: cover !important;"></div>
+        <div class="position-relative text-center zindex-5 overflow-hidden vh-100">
+
+          <!-- Slider -->
+          <div class="container text-center vh-100">
+            <div class="row justify-content-center vh-100">
+              <div class="col-xl-8 col-lg-9 col-md-10 col-11 align-self-end">
+                <div class="swiper pt-5 pb-4 py-md-5" data-swiper-options='{
+                  "effect": "fade",
+                  "speed": 500,
+                  "autoplay": {
+                    "delay": 5500,
+                    "disableOnInteraction": false
+                  },
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "clickable": true
+                  },
+                  "navigation": {
+                    "prevEl": "#hero-prev",
+                    "nextEl": "#hero-next"
+                  }
+                }'>
+                  <div class="swiper-wrapper">
+
+                    <!-- Item -->
+                    <div class="swiper-slide">
+                      <h2 class="display-2 from-start mb-lg-4 playwrite-au-tas-400 text-shadow-black">Herminia y Arturo </h2>
+                      <div class="from-end">
+                        <p class="fs-1 text-light  text-shadow-black">
+                          <b>
+                            - Fecha reservada -
+                          </b>
+                        </p>
+                      </div>
+                      <div class="scale-up delay-1">
+                        
+                        <p class="fs-2 text-light   text-shadow-black">
+                          <b>Sábado, 14 de Noviembre de 2026</b>
+                        </p>
+                      </div>
+
+                      <cuenta-regresiva  event-date="2026-11-14 20:00:00"background-color="rgb(195 163 52 / 68%)"animation-class="scale-up " > </cuenta-regresiva>
+
+                    </div>
+
+                  </div>
+
+                  <!-- Pagination (bullets) -->
+                  <div class="swiper-pagination position-relative d-md-none pt-2 mt-5"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+      
+
+
+
+
+
+
+
+      <section class="position-relative pt-5 ">
+        <div class="container position-relative zindex-5 py-5">
+          <div class="row justify-content-center text-center pb-5">
+            <div class="col-md-10  ">
+              <h2 class="h1 mb-lg-4 color-main">¡Nuestro Aniversario!</h2>
+              <p class="fs-3 text-body mb-0">Nuestro Aniversario es un día de acción de gracias, por los años transcurridos y los retos superados, no existe el matrimonio perfecto, sin duda aun en la imperfección hemos logrado matrimonios felices, fuertes, unidos y amorosos, esto ha sido posible porque vamos y vivimos en la presencia de Dios.</p>
+            </div>
+          </div>
+
+
+          <div class="row align-items-center justify-content-center py-4 py-md-5 my-2 my-sm-3 my-md-0 my-xl-3">
+            <div class="col-11 col-md-6   pb-2 pb-sm-3 pb-md-0 mb-4 mb-md-0">
+              <div class="parallax" style="max-width: 636px; transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
+                <div class="parallax-layer" data-depth="0.1" style="transform: translate3d(-4.4px, 0.7px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;">
+                  <picture>
+                    <source srcset="./storage/invitation-types/demos/boda/bienvenida.jpg">
+                    <img src="./storage/invitation-types/demos/boda/bienvenida.jpg" class="d-dark-mode-none rounded-3" 
+                         style="box-shadow: 0 10.2px 41px -6.8px rgba(189, 196, 221, .30);" alt="Chat bot UI window">
+                  </picture>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5  text-center ">
+              <p class="fs-3 text-body mb-0 text-center">
+                "Nos encantaría que estés con nosotros en este día tan especial"
+              </p>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(255,255,255,.05);"></div>
+      </section>
+
+
+
+
+
+      <section class=" my-5 pt-xl-5 pt-lg-4 pt-md-3 pb-lg-5 pb-md-4 pb-3 ">
+        <div class="container ">
+          <h2 class="h1 mt-xl-3 mb-4 pb-3 text-center color-main">Celebración Eucarística</h2>
+
+
+
+          <!-- Tabs content -->
+          <div class="tab-content mb-xl-3 py-4 rounded-3 bg-light">
+
+            <div class="tab-pane fade show active" role="tabpanel">
+              <div class="row align-items-center pt-3 pt-sm-4 pt-md-0 px-3 px-sm-4 px-lg-0">
+                <div class="col-lg-5 offset-lg-1 text-center text-md-start">
+                  <h3 class="h2 mb-lg-4 mb-3 color-main"> Parroquia de La Sagrada Familia  </h3>
+                  <p class="mb-4 pb-lg-3 fs-4">
+                    <i class='bx bxs-calendar-event color-main'></i>Sábado, 14 Noviembre 2026 .
+                    <br>
+                    <i class='bx bx-time-five color-main' ></i> 4:30 PM.
+                  </p>
+
+                  <p class="mb-4 pb-lg-3 fs-5">
+                    <i class='bx bx-map color-main' ></i> Nápoles S/N, Hab Izcalli Piramide, 54140 Tlalnepantla, Méx.
+                  </p>
+
+                  <a href="https://maps.app.goo.gl/ChRDDeLDq4pvCmca8" target="_blank" class="btn btn-outline-primary shadow-lg bg-light fs-5 mb-3 mb-md-0">
+                    <img width="45px" src="./storage/icons/google-maps.png" class="me-2" />
+                    Google maps
+                  </a>
+                </div>
+    
+              </div>
+            </div>
+
+
+
+
+
+
+          </div>
+        </div>
+        
+      </section>
+
+
+
+
+
+
+      <section class=" my-5 pt-xl-5 pt-lg-4 pt-md-3 pb-lg-5 pb-md-4 pb-3 ">
+        <div class="container ">
+          <h2 class="h1 mt-xl-3 mb-4 pb-3 text-center color-main">Recepción</h2>
+
+
+
+          <!-- Tabs content -->
+          <div class="tab-content mb-xl-3 py-4 rounded-3 bg-light">
+
+            <div class="tab-pane fade show active" role="tabpanel">
+              <div class="row align-items-center pt-3 pt-sm-4 pt-md-0 px-3 px-sm-4 px-lg-0">
+                <div class="col-lg-5 offset-lg-1 text-center text-md-start">
+                  <!--<h3 class="h2 mb-lg-4 mb-3 color-main">Palapa “El Ángel Azul”</h3>-->
+                  <p class="mb-4 pb-lg-3 fs-4">
+                    <i class='bx bxs-calendar-event color-main'></i>Sábado, 14 Noviembre 2026 .
+                    <br>
+                    <i class='bx bx-time-five color-main' ></i> 6:30 PM.
+                  </p>
+
+                  <p class="mb-4 pb-lg-3 fs-5">
+                    <i class='bx bx-map color-main' ></i> Tepeyac Insurgentes, 07020 Ciudad de México, CDMX
+                  </p>
+
+                  <a href="https://maps.app.goo.gl/3Tw5ksTRbhAZQkvx6" target="_blank" class="btn btn-outline-primary shadow-lg bg-light fs-5 mb-3 mb-md-0">
+                    <img width="45px" src="./storage/icons/google-maps.png" class="me-2" />
+                    Google maps
+                  </a>
+                </div>
+    
+              </div>
+            </div>
+
+
+
+
+
+
+          </div>
+        </div>
+        
+      </section>
+
+
+
+
+
+
+      <!--
+      About 
+      <section class=" my-5 pt-xl-5 pt-lg-4 pt-md-3 pb-lg-5 pb-md-4 pb-3 ">
+        <div class="container text-center ">
+          <div class="mb-2">
+            <h2 class="h1 mt-xl-3 mb-4 pb-3 color-main">Código de Vestimenta</h2>
+          </div>
+          <div class="paleta-colores">
+            <h5>Animamos amablemente a nuestros invitados, para vestirse con nuestra paleta de colores en nuestro día especial.</h5>
+            <h5>colores sugeridos</h5>
+            <p>(tonos de verde)</p>
+            <div style="display: flex; gap: 15px; margin: 15px 0; justify-content: center;">
+              <div style="width: 40px; height: 40px; border-radius: 50%; background-color: #A5C882;"></div>
+              <div style="width: 40px; height: 40px; border-radius: 50%; background-color: #4F7A36;"></div>
+              <div style="width: 40px; height: 40px; border-radius: 50%; background-color: #1C4B1A;"></div>
+            </div>
+            <p>Se ruega a todos los invitados cumplir con el código de 
+             vestimenta establecido, el cual estarán reservados únicamente para los novios, los siguientes colores:</p>
+            <p>
+              blanco<br>
+              beige/dorado<br>
+              gris/plata
+            </p>
+          </div>
+        </div>
+      </section>
+      -->
+      
+
+
+
+
+
+      <section class=" my-5 pt-xl-5 pt-lg-4 pt-md-3 pb-lg-5 pb-md-4 pb-3 ">
+        
+        <div class="container text-center ">
+          <div class="mb-5">
+            <h2 class="h1 mt-xl-3 mb-4 pb-3 color-main">Programa del evento</h2>
+            <p class="fs-3 text-body mb-0">¡Acompañanos a celebrar!</p>
+          </div>
+
+
+          <div class="row  justify-content-center py-4 py-md-5 my-2 my-sm-3 my-md-0 my-xl-3">
+         
+         
+
+            <div class="col-md-2 pb-2 pb-sm-3 pb-md-0 mb-4 mb-md-0 border-end-0 border-end-md">
+              <div >
+                  <img width="75px" src="./storage/invitation-types/demos/boda/recepcion.svg" class="" >
+              </div>
+
+              <h2 class="h3 mb-lg-4 color-main mt-5">Recepción</h2>
+              <p class="fs-5 text-body mb-5">
+                Disfruta de un refrescante cocktail y captura el momento con una foto
+              </p>
+            </div>
+
+
+            <div class="col-md-2 pb-2 pb-sm-3 pb-md-0 mb-4 mb-md-0 border-end-0 border-end-md">
+              <div>
+                <img width="75px" src="./storage/invitation-types/demos/boda/primer-baile.svg" class="" >
+              </div>
+
+              <h2 class="h3 mb-lg-4 color-main mt-5">Primer baile</h2>
+              <p class="fs-5 text-body mb-5">
+                Ven a compartir el instante más emotivo de la fiesta
+              </p>
+            </div>
+
+            <div class="col-md-2 pb-2 pb-sm-3 pb-md-0 mb-4 mb-md-0 border-end-0 border-end-md">
+              <div >
+                  <img width="75px" src="./storage/invitation-types/demos/boda/banquete.svg" class="" >
+              </div>
+
+              <h2 class="h3 mb-lg-4 color-main mt-5">Banquete</h2>
+              <p class="fs-5 text-body mb-5">
+                Disfrutemos juntos de una cena exquisita
+              </p>
+            </div>
+
+            <div class="col-md-2 pb-2 pb-sm-3 pb-md-0 mb-4 mb-md-0">
+              <div >
+                  <img width="75px" src="./storage/invitation-types/demos/boda/baile.svg" class="" >
+              </div>
+
+              <h2 class="h3 mb-lg-4 color-main mt-5">Baile</h2>
+              <p class="fs-5 text-body mb-5">
+                ¡Muestra tus pasos de baile más espectaculares!
+              </p>
+            </div>
+            
+          </div>
+     
+
+
+
+
+      
+
+      <section class="bg-light my-5 pt-5  pb-5  ">
+
+        <div class="container text-center ">
+
+          <div>
+            <h2 class="h1 mt-3 mb-4 pb-3 color-main">Mesa de regalos</h2>
+            <p class="fs-4 text-body mb-0">
+              El regalo es opcional, la asistencia obligatoria. Si deseas tener un detalle conmigo, una lluvia de sobres será bien recibida.
+            </p>
+          </div>
+
+        
+        </div>
+        
+      </section>
+
+
+
+      <section class="bg-size-cover bg-position-bottom-center bg-repeat-0 py-5" >
+        <div class="container ">
+
+          <div class="row align-items-center pt-md-2 pt-lg-5 pb-2 pb-md-4">
+            <div class="col-12 col-md-5 pt-3 text-center mt-3">
+              <h2 class="h1  mb-4  color-main">Confirma tu asistencia</h2>
+              <p class="lead pb-3 mb-5">
+                Nos encantaría contar con tu presencia en este día especial, por favor confirma tu asistencia a la brevedad
+              </p>
+            </div>
+            <div class="col-lg-6 offset-md-1 pt-3 pt-md-4 pt-lg-3 mt-3">
+              <form class="needs-validation" novalidate method="GET" action="javascript::void(0);" >
+                <h2 class="h3  mb-5 text-center color-main">¿asistirás a nuestra boda?</h2>
+
+                <div class="alert alert-secondary text-center bg-light fs-5">
+                  ¡Vamos a hacer de esta noche algo, <u>inolvidable</u>!
+                </div>
+
+                <div class="row g-4">
+         
+                  <div class="col-12 text-center">
+
+                    <a href="https://api.whatsapp.com/send?phone=XXXXXXXXX&text=Hola,%20confirmo%20mi%20asistencia%20a%20tu%20evento" target="_blank"
+                        class="btn btn-block rounded-pill w-100 btn-lg fs-4 line-height-1 btn-primary ">
+                      <i class='bx bxs-paper-plane me-2'></i> Confirmar Asistencia
+                    </a>
+
+                  </div>
+                  
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      <section class="bg-white bg-position-bottom-center bg-repeat-0 pt-5 " >
+        <!-- Footer -->
+        <footer class="bd-footer pb-3" style="background: #ffffff;">
+            
+            <br>
+            <iframe src="https://ztart.mx/incrust/black.html" width="100%" height="auto" frameborder="0"></iframe>
+
+        </footer>
+
+
+    
+      </section>
+
+    </main>
+
+    <script src="./assets/site/js/invite-A16.js"></script>
+    <!-- Vendor Scripts -->
+    <script src="./assets/site/vendor/jarallax/dist/jarallax.min.js"></script>
+    <script src="./assets/site/vendor/parallax-js/dist/parallax.min.js"></script>
+    <script src="./assets/site/vendor/swiper/swiper-bundle.min.js"></script>
+    
+    <script src="./assets/site/vendor/lightgallery/lightgallery.min.js"></script>
+    <script src="./assets/site/vendor/lightgallery/plugins/fullscreen/lg-fullscreen.min.js"></script>
+    <script src="./assets/site/vendor/lightgallery/plugins/zoom/lg-zoom.min.js"></script>
+    <script src="./assets/site/vendor/lightgallery/plugins/thumbnail/lg-thumbnail.min.js"></script>
+    <script src="./assets/site/vendor/lightgallery/plugins/video/lg-video.min.js"></script>
+
+    <!-- Main Theme Script -->
+    <script src="./assets/site/js/theme.min.js"></script>
+  </body>
+
+
+</html>
